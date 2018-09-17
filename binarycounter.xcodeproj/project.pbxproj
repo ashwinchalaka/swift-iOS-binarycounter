@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		136750E121502385003D344D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136750E021502385003D344D /* AppDelegate.swift */; };
-		136750E321502385003D344D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136750E221502385003D344D /* ViewController.swift */; };
 		136750E621502385003D344D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136750E421502385003D344D /* Main.storyboard */; };
 		136750E821502386003D344D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136750E721502386003D344D /* Assets.xcassets */; };
 		136750EB21502386003D344D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136750E921502386003D344D /* LaunchScreen.storyboard */; };
 		136750F621502386003D344D /* binarycounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136750F521502386003D344D /* binarycounterTests.swift */; };
 		1367510121502386003D344D /* binarycounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1367510021502386003D344D /* binarycounterUITests.swift */; };
+		1367510F215025D2003D344D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1367510E215025D2003D344D /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		136750DD21502385003D344D /* binarycounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = binarycounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		136750E021502385003D344D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		136750E221502385003D344D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		136750E521502385003D344D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		136750E721502386003D344D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		136750EA21502386003D344D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		136750FC21502386003D344D /* binarycounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = binarycounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1367510021502386003D344D /* binarycounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binarycounterUITests.swift; sourceTree = "<group>"; };
 		1367510221502386003D344D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1367510E215025D2003D344D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				136750E021502385003D344D /* AppDelegate.swift */,
-				136750E221502385003D344D /* ViewController.swift */,
+				1367510E215025D2003D344D /* MainVC.swift */,
 				136750E421502385003D344D /* Main.storyboard */,
 				136750E721502386003D344D /* Assets.xcassets */,
 				136750E921502386003D344D /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				136750E321502385003D344D /* ViewController.swift in Sources */,
+				1367510F215025D2003D344D /* MainVC.swift in Sources */,
 				136750E121502385003D344D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ5399F5J7;
 				INFOPLIST_FILE = binarycounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ5399F5J7;
 				INFOPLIST_FILE = binarycounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
